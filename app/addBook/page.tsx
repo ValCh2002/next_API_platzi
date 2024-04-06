@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
-import { ShowBooks } from './components/ShowBooksPage';
+import { AddBook } from '../components/AddBookPage';
 
 
 export default function IndexPage() {
-  return (<ShowBooks/>
+  return (<AddBook/>
   );
 }
 
 export const metadata: Metadata = {
-  title: 'Redux Toolkit',
+  title: 'Add Book',
 };

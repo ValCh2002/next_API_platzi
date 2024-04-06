@@ -1,0 +1,27 @@
+.show {
+    width: 95%;
+    border: 2px solid #aaa;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 5px 3px #bbb;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+    gap: 20px;
+    justify-content: center;
+
+    >div {
+        border: 3px solid #999;
+        box-shadow: 5px 5px 5px 3px #888;
+        display: grid;
+        padding: 10px;
+        img{
+            width: 100px;
+        }
+        a{
+
+        }
+
+    }
+
+}
