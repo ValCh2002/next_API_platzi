@@ -15,19 +15,47 @@ export const Nav = () => {
         className={`${styles.link} ${pathname === "/" ? styles.active : ""}`}
         href="/"
       >
-        Teams
+        Products
       </Link>
       <Link
-        className={`${styles.link} ${pathname === "/stadiums" ? styles.active : ""}`}
-        href="/stadiums"
+        className={`${styles.link} ${
+          pathname === "/addProduct" ? styles.active : ""
+        }`}
+        href="/addProduct"
       >
-        Stadiums
+        Add Product
       </Link>
       <Link
-        className={`${styles.link} ${pathname === "/tvChannels" ? styles.active : ""}`}
-        href="/tvChannels"
+        className={`${styles.link} ${
+          pathname === "/categories" ? styles.active : ""
+        }`}
+        href="/categories"
       >
-        Tv Channels
+        Categories
+      </Link>
+      <Link
+        className={`${styles.link} ${
+          pathname === "/addCategory" ? styles.active : ""
+        }`}
+        href="/addCategory"
+      >
+        Add Category
+      </Link>
+      <Link
+        className={`${styles.link} ${
+          pathname === "/users" ? styles.active : ""
+        }`}
+        href="/users"
+      >
+        Users
+      </Link>
+      <Link
+        className={`${styles.link} ${
+          pathname === "/addUser" ? styles.active : ""
+        }`}
+        href="/addUser"
+      >
+        Add User
       </Link>
     </nav>
   );

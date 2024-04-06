@@ -1,12 +1,13 @@
 .nav {
-  margin: 0;
-  height: 60px;
+  grid-area: nav;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
-  font-size: 18px;
-  background:black;
+  gap: 18px;
+  padding: 8px;
+  font-size: 15px;
+  background: black;
+  margin-bottom: 20px;
 }
 
 .link:hover {

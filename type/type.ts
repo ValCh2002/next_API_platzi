@@ -1,27 +1,29 @@
-export interface ITeam{
+export interface IUser {
   id: number;
   name: string;
-  fifaCode: string;
-  iso2: string;
-  flag: string;
-  emoji:string
-  emojiString:string
+  role: string;
+  email: string;
+  password: string;
+  avatar: string;
 }
 
-export interface IStadium {
+export interface IProduct {
   id: number;
-  name:string
-  city:string
-  lat: number;
-  lng: number;
-  image: string;
+  title: string;
+  price: number;
+  description: string;
+  category: ICategory;
+  categoryId: number;
+  images: string[];
 }
 
-export interface ITvChannel {
+export interface ICategory {
   id: number;
   name: string;
-  icon:string
-  country:string
-  ico2:string
-  lang:string[]
+  image:string
+
+}
+export interface IRange{
+  min: number;
+  max: number;
 }
