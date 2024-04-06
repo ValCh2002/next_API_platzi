@@ -1,2 +1,1 @@
-# next_API_platzi
-next, react-hook-form, toolkit
+next, redux, toolkit, react-hook-form, react-boostrap, 
