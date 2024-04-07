@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
-import { ShowBooks } from './components/ShowBooksPage';
+import { ShowProductsPage } from './components/ShowProductsPage';
 
 
 export default function IndexPage() {
-  return (<ShowBooks/>
+  return (<ShowProductsPage/>
   );
 }
 

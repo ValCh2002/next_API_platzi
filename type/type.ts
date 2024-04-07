@@ -1,9 +1,29 @@
-export interface IBook{
-    id:number
-    title:string
-    desc:string
-    author:string
-    price:number
-    count:number
-    picUrl:string
+export interface IUser {
+  id: number;
+  name: string;
+  role: string;
+  email: string;
+  password: string;
+  avatar: string;
+}
+
+export interface IProduct {
+  id: number;
+  title: string;
+  price: number;
+  description: string;
+  category: ICategory;
+  categoryId: number;
+  images: string[];
+}
+
+export interface ICategory {
+  id: number;
+  name: string;
+  image:string
+
+}
+export interface IRange{
+  min: number;
+  max: number;
 }
